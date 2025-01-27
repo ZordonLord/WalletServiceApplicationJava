@@ -23,5 +23,4 @@ public class Wallet {
         return 0;
     }
 
-    // Getters and setters
 }

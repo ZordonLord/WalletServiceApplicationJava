@@ -4,10 +4,9 @@ import java.util.UUID;
 
 public class OperationRequest {
     private UUID walletId;
-    private String operationType; // "DEPOSIT" or "WITHDRAW"
+    private String operationType;
     private double amount;
 
-    // Getters and setters
     public UUID getWalletId() {
         return walletId;
     }
